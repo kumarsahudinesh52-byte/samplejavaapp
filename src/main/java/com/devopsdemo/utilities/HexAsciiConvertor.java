@@ -2,7 +2,7 @@ package com.devopsdemo.utilities;
 
 public class HexAsciiConvertor {
 
-    /**
+    /***
      * Converts hexadecimal values into ASCII.
      *
      * @param hexValue the hexadecimal value
@@ -27,7 +27,7 @@ public class HexAsciiConvertor {
             throw new IllegalArgumentException("Invalid hex string", e);
         }
     }
-    
+
     /**
      * Alias for convertHexToASCII to match test usage.
      */
